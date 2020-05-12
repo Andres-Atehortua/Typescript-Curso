@@ -1,4 +1,4 @@
-// Functions
+// FUNCTIONS
 
 // Funciones básicas.
 let hero: string = "Flash";
