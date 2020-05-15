@@ -1,5 +1,5 @@
 "use strict";
-let mensajes = [
+var mensajes = [
     "El texto es muy corto",
     "El texto es muy largo",
     "El texto mola",
