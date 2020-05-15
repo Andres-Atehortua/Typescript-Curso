@@ -2,8 +2,8 @@
 
 // Aqui decimos que sólo podemos asignar propiedades de tipo number o string
 class Cuadrado<T extends number | string> {
-  base: T;
-  altura: T;
+  base!: T; // El ! indica que la propieda no es null ni undefined
+  altura!: T;
   area(): number {
     return +this.base * +this.altura;
   }
